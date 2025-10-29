@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About Daniel Li — industry experience, interests, and contact form." />
+  <title>About • Daniel Li</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/images/profile.svg" type="image/svg+xml" />
+</head>
+<body data-page="about">
+  <header class="site-header">
+    <a class="logo" href="index.html">DL</a>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="hobbies.html">Hobbies</a>
+    </nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+      <button id="menu-toggle" class="icon-btn mobile-only" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>About / Industry Experience</h1>
+    <p>I'm Daniel Li, an EECS student at UC Berkeley with interests in computer vision, machine learning, and building useful full‑stack tools.</p>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li>
+          <h3>AI and CV Intern • OPPO</h3>
+          <p>Developed large‑scale video analytics pipelines (YOLO, DeepSORT) and data curation tooling.</p>
+        </li>
+        <li>
+          <h3>Computer Vision Intern • Anchor Logics</h3>
+          <p>Built pose estimation workflows (OpenPose) and analytics dashboards.</p>
+        </li>
+        <li>
+          <h3>SDE Intern • Daicus</h3>
+          <p>React + FastAPI dashboard with role‑based auth and real‑time compliance notifications.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>Have a question or want to connect? Send a message below.</p>
+      <form id="contact-form" class="card">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" placeholder="Say hello…" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Daniel Li</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

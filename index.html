@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Daniel Li — personal website showcasing academic coursework, projects, hobbies, and industry experience." />
+  <meta name="author" content="Daniel Li" />
+  <meta name="keywords" content="Daniel Li, UC Berkeley, EECS, personal website, projects, coursework, experience" />
+  <title>Daniel Li — Home</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/images/profile.svg" type="image/svg+xml" />
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Go to homepage">DL</a>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="hobbies.html">Hobbies</a>
+    </nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      <button id="menu-toggle" class="icon-btn mobile-only" aria-label="Toggle navigation" title="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero with moving background -->
+    <section class="hero animated-bg">
+      <div class="hero-inner container">
+        <h1>Hi, I'm <span class="accent">Daniel Li</span> 👋</h1>
+        <p>EECS @ UC Berkeley (’25). I build ML + video processing pipelines and full‑stack apps.</p>
+        <div class="hero-cta">
+          <a class="btn" href="about.html">About / Experience</a>
+          <a class="btn outline" href="courses.html">Courses</a>
+        </div>
+        <div class="hero-gallery">
+          <img src="assets/images/DL2.PNG" alt="Profile illustration" />
+          <img src="assets/images/9b.png" alt="metrics" />
+          <img src="assets/images/vid.jpg" alt="video" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container quick-intro">
+      <h2>Summary</h2>
+      <ul>
+        <li>Focused on <strong>computer vision</strong>, <strong>ML systems</strong>, and <strong>full‑stack</strong> development.</li>
+        <li>Recent interests: pose estimation, segmentation, and scalable data pipelines.</li>
+        <li>Outside of work: soccer, pickleball, tennis, board games, and reading (TBATE & Paulo Coelho).</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Daniel Li • <a href="mailto:trdanli2221@gmail.com">trdanli2221@gmail.com</a></small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
